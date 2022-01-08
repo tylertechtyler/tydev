@@ -144,3 +144,100 @@ html {
       opacity: 0;
     }
   }
+
+  /*responsive devices*/
+.card {
+  width: 100vw;
+  background: black;
+  height: 50vh;
+  display: flex;
+  padding: 5rem;
+}
+.laptop {
+  width: 25rem;
+  height: 16rem;
+
+  position: relative;
+}
+
+.laptop-screen {
+    position: relative;
+    left: 7%;
+    height: 94%;
+    width: 86%;
+    background-color: black;
+    border-radius: 1vw 1vw 0 0;
+    padding: 3.5%;
+}
+.laptop-content {
+      width: 100%;
+      height: 100%;
+      background-image: url("https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
+      background-size: contain;
+      
+}
+
+.laptop-base {
+    background-color: gray;
+    height: 6%;
+    border-radius: 0 0 1vw 1vw;
+}
+.laptop-trackpad {
+      position: relative;
+      left: 50%;
+      background-color: #fff;
+      width: 20%;
+      height: 30%;
+      border-radius: 0 0 1vw 1vw;
+      transform: translateX(-50%);
+}
+
+.tablet {
+  width: 15rem;
+  height: 17rem;
+
+  position: relative;
+}
+
+.tablet-screen {
+    position: relative;
+    left: 7%;
+    height: 94%;
+    width: 86%;
+    background-color: black;
+    border-radius: 0.6vw;
+    padding: 3.5%;
+  padding-bottom: 6%;
+}
+.tablet-content {
+      width: 100%;
+      height: 100%;
+      background-image: url("https://images.unsplash.com/photo-1633114127824-14b3207d7d74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+      background-size: contain;
+      
+}
+.phone {
+  width: 5rem;
+  height:10rem;
+
+  position: relative;
+}
+
+.phone-screen {
+    position: relative;
+    left: 7%;
+    height: 94%;
+    width: 86%;
+    background-color: black;
+    border-radius: 1vw;
+    padding: 6.5%;
+    padding-bottom: 13%;
+  padding-top: 13%;
+}
+.phone-content {
+      width: 100%;
+      height: 100%;
+      background-image: url("https://images.unsplash.com/photo-1633114127824-14b3207d7d74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+      background-size: contain;
+      
+}
