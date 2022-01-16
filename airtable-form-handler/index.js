@@ -23,11 +23,10 @@ const submitHandler = async request => {
   const body = await request.formData();
 
   const {
-    first_name,
-    last_name,
+    name,
+    
     email,
-    phone,
-    subject,
+    
     message
   } = Object.fromEntries(body)
 
