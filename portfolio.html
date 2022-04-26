@@ -18,9 +18,7 @@
   gtag('config', 'G-1VHX4MJXKG');
 </script>
       <script src="tydev.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+      
       </head>
       
       <!--Navbar-->
@@ -141,9 +139,62 @@
         <div class="pt-16 mx-auto  sm:px-6 lg:px-8 ">
               <div class="max-w-3xl mx-auto mb-10 text-center">
                   <h1 class="text-4xl font-extrabold sm:text-4xl lg:text-5xl">Check out my portfolio</h1>			
-            <p class="flex-1 my-10 text-2xl leading-relaxed text-coolGray-600">I've put together a few demo websites to showcase my skills. Everything is fully responsive and live so you can get a feel for my quality of work.</p>
+            <p class="flex-1 my-10 text-2xl leading-relaxed text-coolGray-600">Have a look at some of my previous work to get an idea of the kind of material you can expect.</p>
               </div>
+
+<!--portfolio items-->
           <div class="px-4 py-16 mx-auto  lg:max-w-5xl lg:px-8 lg:py-20">
+
+            <div class="text-center md:text-right lg:text-right flex justify-center ">
+              <h1 class="mx-4 text-3xl lg:text-4xl font-semibold title-font  text-coolGray-800">The Computer Store</h1>
+                  <button onClick="window.open('https://tvhcomputers.com')" class="px-4 py-2 lg:mx-4 text-sm font-medium text-white rounded-3xl uppercase transition-colors  rounded-md lg:w-auto bg-yellow-500 hover:bg-yellow-400  focus:outline-none focus:bg-black-500 hover:shadow-xl">View site</button>
+                  </div>
+              <div class="flex flex-wrap justify-center md:justify-around lg:justify-around mb-24 md:flex-row lg:flex-row">
+                <div class="my-10">
+                  <div class="">
+            <div class="laptop">
+              <div class="laptop-screen">
+                <div class="laptop-content laptop-computer-store">
+                  
+                </div>
+              </div>
+              <div class="laptop-base">
+                <div class="laptop-trackpad"></div>
+              </div>
+            </div>
+            </div>      
+                </div>
+                <div class="my-10">
+                  <div class="">
+            <div class="tablet">
+              <div class="tablet-screen">
+                <div class="tablet-content tablet-computer-store">
+                  
+                </div>
+              </div>
+              
+            </div>
+            </div>
+                  
+                </div>
+                <div class="my-10 pt-6">
+                  <div class="">
+            <div class="phone">
+              <div class="phone-screen">
+                <div class="phone-content phone-computer-store">
+                  
+                </div>
+              </div>
+              
+            </div>
+            </div>
+                  
+                </div>
+                
+                
+                
+              </div>
+    <!--portfolio item-->
             <div class="text-center md:text-right lg:text-right flex justify-center ">
         <h1 class="mx-4 text-3xl lg:text-4xl font-semibold title-font  text-coolGray-800">Site 1: Carwash</h1>
             <button onClick="window.open('https://codepen.io/vonnyboy/full/RwLbGva')" class="px-4 py-2 lg:mx-4 text-sm font-medium text-white rounded-3xl uppercase transition-colors  rounded-md lg:w-auto bg-yellow-500 hover:bg-yellow-400  focus:outline-none focus:bg-black-500 hover:shadow-xl">View demo</button>
@@ -193,7 +244,7 @@
           
           
         </div>
-            
+    <!--portfolio item-->
         <div class="text-center md:text-right lg:text-right flex justify-center ">
         <h1 class="mx-4 text-3xl lg:text-4xl font-semibold title-font  text-coolGray-800">Site 2: Painter</h1>
             <button onClick="window.open('https://codepen.io/vonnyboy/full/vYJogoo')" class="px-4 py-2 lg:mx-4 text-sm font-medium text-white rounded-3xl uppercase transition-colors  rounded-md lg:w-auto bg-yellow-500 hover:bg-yellow-400  focus:outline-none focus:bg-black-500 hover:shadow-xl">View demo</button>
@@ -243,7 +294,8 @@
           
           
         </div>
-            
+
+    <!--portfolio item-->
         <div class="text-center md:text-right lg:text-right flex justify-center ">
         <h1 class="mx-4 text-3xl lg:text-4xl font-semibold title-font  text-coolGray-800">Site 3: Landscaper</h1>
             <button onClick="window.open('https://codepen.io/vonnyboy/full/YzxdXzm')" class="px-4 py-2 lg:mx-4 text-sm font-medium text-white rounded-3xl uppercase transition-colors  rounded-md lg:w-auto bg-yellow-500 hover:bg-yellow-400  focus:outline-none focus:bg-black-500 hover:shadow-xl">View demo</button>
@@ -382,13 +434,18 @@
     <script>
         //Navbar turns black on scroll
 
-$(window).scroll(function () {
-if ($(window).scrollTop() >= 100) {
-$('.navbar').css('background','#461B93');
-} else {
-$('.navbar').css('background','transparent');
-}
-});
+        var myNav = document.querySelector('.navbar');
+window.onscroll = function () { 
+    "use strict";
+    if (document.body.scrollTop >= 100 ) {
+        myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+    } 
+    else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    }
+};
 
 
       </script>
