@@ -14,20 +14,18 @@ html {
   }
   body {
     overflow-x: hidden;
-    background: linear-gradient(123deg, #461B93 0%, #461B93 40%, #6A3CBC calc(40% + 1px), #6A3CBC 60%, #8253D7 calc(60% + 1px), #8253D7 70%, #F78F1E calc(70% + 1px), #F78F1E 100%);
+    background: linear-gradient(123deg, #461B93 0%, #461B93 40%, #6A3CBC calc(40% + 1px), #6A3CBC 60%, #8253D7 calc(60% + 1px), #8253D7 70%, #facc15 calc(70% + 1px), #facc15 100%);
+  }
+  .bg-footer {
+    background-color: #facc15;
   }
   
   .text-shadow {
     text-shadow: 5px 2px 8px #000000,
       12px 6px 8px 	#505050;
   }
-  .t-y {
-    color: #fbc02d;
-  }
-  .txt-rotate {
-    
-    color: #fbc02d;
-  }
+  
+  
   #container {
     
     margin-bottom: 100px;
