@@ -126,14 +126,13 @@ html {
   display: flex;
   padding: 5rem;
 }
-.laptop {
-  width: 25rem;
-  height: 16rem;
+.preview {
+ transform: scale(1.2);
 transition: 0.3s;
-  position: relative;
+  
 }
-.laptop:hover {
-  transform: scale(1.1);
+.preview:hover {
+  transform: scale(1.4);
   
   transition: 0.3s;
 }
