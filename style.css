@@ -129,11 +129,12 @@ html {
 .preview {
  transform: scale(1.2);
 transition: 0.3s;
+filter: drop-shadow(1px 1px 7px #fcf4c5);
   
 }
 .preview:hover {
   transform: scale(1.4);
-  
+  filter: drop-shadow(1px 1px 11px #fcf4c5);
   transition: 0.3s;
 }
 
