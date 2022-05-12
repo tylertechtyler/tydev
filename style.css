@@ -149,6 +149,12 @@ filter: drop-shadow(1px 1px 7px #fcf4c5);
   height: 100%;
   z-index: -100;
 }
+@media screen and (max-width: 750px) {
+  .circles, .circles li {
+    visibility: hidden;
+    display: hidden;
+  }
+  }
 
 .circles li{
   position: absolute;
