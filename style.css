@@ -12,6 +12,16 @@ html {
   .nav-transparent {
     background-color: transparent;
   }
+  @media screen and (max-width: 900px) {
+  .show {
+    visibility: visible;
+    transition: 0.3s;
+  }
+  .hide {
+    visibility: hidden;
+    transition: 0.3s;
+  }
+}
   body {
     overflow-x: hidden;
     background: linear-gradient(123deg, #461B93 0%, #461B93 40%, #6A3CBC calc(40% + 1px), #6A3CBC 60%, #8253D7 calc(60% + 1px), #8253D7 70%, #facc15 calc(70% + 1px), #facc15 100%);
@@ -24,7 +34,13 @@ html {
     text-shadow: 5px 2px 8px #000000,
       12px 6px 8px 	#505050;
   }
-  
+  .hero-button, .bottom-nav {
+    background-color: #6A3CBC;
+    
+  }
+  .hero-text {
+    color: #461B93;
+  }
   
   #container {
     
@@ -136,6 +152,9 @@ filter: drop-shadow(1px 1px 7px #fcf4c5);
   transform: scale(1.4);
   filter: drop-shadow(1px 1px 11px #fcf4c5);
   transition: 0.3s;
+}
+.preview-home {
+  filter: drop-shadow(0.5px 1px 3px #3a3a3a);
 }
 
 
