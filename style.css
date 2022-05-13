@@ -38,6 +38,9 @@ html {
     background-color: #6A3CBC;
     
   }
+  .hero-button:hover {
+    background-color: #8253D7;
+  }
   .hero-text {
     color: #461B93;
   }
