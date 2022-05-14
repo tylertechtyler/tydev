@@ -29,7 +29,10 @@ html {
   .bg-footer {
     background-color: #facc15;
   }
-  
+  .gradient-footer {
+    background: rgb(70,27,147);
+background: linear-gradient(90deg, rgba(70,27,147,1) 0%, rgba(106,60,188,1) 56%, rgba(130,83,215,1) 78%, rgba(57,20,166,1) 98%);
+  }
   .text-shadow {
     text-shadow: 5px 2px 8px #000000,
       12px 6px 8px 	#505050;
