@@ -3,6 +3,9 @@
 html {
     scroll-behavior: smooth;
   }
+  .logo-img {
+    height: 2rem;
+  }
   .navbar {
     transition: 0.3s;
   }
