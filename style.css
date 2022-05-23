@@ -104,7 +104,14 @@ filter: drop-shadow(1px 1px 7px #fcf4c5);
   filter: drop-shadow(1px 1px 11px #3a3a3a);
   transition: 0.3s;
 }
-
+.location-card {
+  filter: drop-shadow(1px 1px 11px #3a3a3a);
+  transition: 0.3s;
+}
+.location-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
 
 .promo-text-shadow {
   
