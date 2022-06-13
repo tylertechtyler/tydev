@@ -45,6 +45,12 @@ html {
     background-attachment: fixed;
     background-size: cover;
   }
+  .bg-stroud {
+    background: linear-gradient(90deg, rgba(123,71,217,0.5284488795518207) 0%, rgba(255,255,255,0.9458158263305322) 20%, rgba(234,234,234,0.9570203081232493) 80%, rgba(186,186,186,0.6320903361344538) 100%),url(https://raw.githubusercontent.com/tylertechtyler/hosted-assets/main/cities/stroudsburg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
   .text-shadow {
     text-shadow: 5px 2px 8px #000000,
       12px 6px 8px 	#505050;
